@@ -1,0 +1,26 @@
+<!-- 1. Add 'group' to the parent container -->
+<div
+  class="group relative p-6 border border-gray-300 rounded-lg max-w-sm text-center"
+>
+  <p class="text-gray-700">Hover over this box to see the image</p>
+
+  <!-- 2. Add 'hidden group-hover:block' to the image -->
+  <img
+    src="https://unsplash.com"
+    alt="Cute dog"
+    class="hidden group-hover:block mx-auto mt-4 w-40 h-40 object-cover rounded-full"
+  />
+</div>
+<!-- 1. Add 'group' to the parent container -->
+<div
+  class="group relative p-6 border border-gray-300 rounded-lg max-w-sm text-center"
+>
+  <p class="text-gray-700">Hover over this box for a smooth effect</p>
+
+  <!-- 2. Use opacity, transition, and duration utilities -->
+  <img
+    src="https://unsplash.com"
+    alt="Cute dog"
+    class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mx-auto mt-4 w-40 h-40 object-cover rounded-full"
+  />
+</div>
